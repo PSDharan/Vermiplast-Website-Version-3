@@ -1,0 +1,91 @@
+body{font-family: roboto; background-color: #F5F5F5;}
+.active_nav { color:#303A93 !important; font-size:15px; font-weight:500; font-style:normal; border-top: 5px solid #303A93; padding-top: 24px; padding-bottom: 32px; background-color: #F5F5F5;}
+.nav_color { font-size:15px; font-weight:500; font-style:normal; color:#454545;font-family: 'Roboto';    font-size: 15px; line-height: 15px; padding-top: 33px; padding-bottom: 32px;}
+.nav_color:hover { color:#303A93; }
+.vermi {width:auto; background-color: #00923D; height:40px; padding:10px 10px 10px 10px; font-style: normal; font-weight: 400; font-size: 18px; line-height: 20px; color: #ffff;}
+.f_r{float: right;}
+.mb_num{color: white; font-size: 18px;  line-height: 16px;font-style: normal; font-weight: 400;}
+.subhead{font-style: normal; font-weight: 300;  font-size: 44px;  line-height: 40px; color: #FFFFFF; text-transform: uppercase;}
+.heading{font-style: normal;   font-weight: 700;  font-size: 76px;  line-height: 64px; text-transform: uppercase; color: #FFFFFF;}
+.p_t{font-style: normal;  font-weight: 400;  font-size: 18px;  line-height: 28px; color: #FFFFFF;}
+.c_head{font-style: normal; font-weight: 500; font-size: 22px; line-height: 22px; text-align: center; color: #2F2F2F;}
+.c_txt{font-style: normal; font-weight: 400; padding-left: 15px; padding-right: 15px; font-size: 14px; line-height: 20px; text-align: center;  text-transform: capitalize;    color: #656565;}
+.c_bot{width: auto; padding-top: 12px; height: 42px; margin-bottom:35px; border-radius: 0px !important;  background: #303A93; color: #FFFFFF; font-style: normal;  font-weight: 500;  font-size: 16px; line-height: 15px;  text-align: center;  }
+.txt_cent{text-align: none; }
+.about{color: #E47819;font-style: normal;  font-weight: 400; font-size: 20px;  line-height: 20px;}
+.t_head{font-style: normal;  font-weight: 500;  font-size: 46px; line-height: 46px;  text-transform: uppercase; color: #353D8A; }
+.t_subhead{font-style: normal;  font-weight: 400;  font-size: 15px; line-height: 24px; color: #656565; }
+.b_right{border-right: 2px solid  #CCD2E3; padding:0px 20px 0px 20px ;}
+.percent{font-size: 16px; color: #454545; text-align: center; text-transform: uppercase;}
+.card_gap{padding-top:300px;}
+.benifits{font-style: normal;  font-weight: 700;  font-size: 24px;  line-height: 24px;  text-transform: uppercase;  color: #303993;}
+.percent_head{text-align: center; font-weight:700;  font-size: 40px; line-height: 36px;}
+.beni_head{font-style: normal; font-weight: 700; font-size: 20px;  line-height: 26px;  text-transform: capitalize;  color: #454545;  }
+.beni_txt{font-style: normal; font-weight: 400; font-size: 18px;  line-height: 26px;  text-transform: capitalize;  color: #454545;}
+.caro_box{width: 550px; height: 160px; border: 1px solid #FFFFFF; padding-top: 50px;}
+.caro_mob{display: block;}
+.caro_img{position: absolute; top: -30px; left: 0px;}
+.padd_img{padding:10px 0px 0px 100px ;}
+hr{border-top: 1px solid #F5F5F5;}
+.f_t{font-style: normal; font-weight: 400;  font-size: 14px;  line-height: 36px; color: rgba(230, 232, 255, 0.87);}
+.f_h{font-style: normal;  font-weight: 700;  font-size: 16px;  line-height: 22px;  color: rgba(255, 255, 255, 0.87);  }
+.f_mob{display:none;}
+.float_right{float: right;}
+.padd_mob{padding:1px}
+.footer_txt { font-size: 12px !important; text-align: right; }
+
+
+@media only screen and (max-width: 576px) {
+	.active_nav {text-align:center; padding: 10px !important; }
+	.nav_color { text-align:center; padding: 10px !important; }
+    .p_mob{font-size: 12px;}
+    .img_mob{ width: 28px; height:32px;}
+    .padd_mob{margin-bottom: 20px;}
+    .vermi{width: auto; background-color: #00923D; height:40px; margin: 0 auto; font-style: normal; font-weight: 700; font-size: 14px; line-height: 20px; color: #ffff; text-align: center; padding:10px 10px 10px 10px;}
+    .txt_cent{text-align: center; }
+    .subhead{font-style: normal; font-weight: 300;  font-size: 24px;  line-height: 40px; color: #FFFFFF; text-transform: uppercase;}
+    .heading{font-style: normal;   font-weight: 700;  font-size: 46px;  line-height: 64px; text-transform: uppercase; color: #FFFFFF;}
+    .p_t{font-style: normal; margin-left: 15px; margin-right: 15px;  font-weight: 400;  font-size: 14px;  line-height: 28px; color: #FFFFFF; padding-bottom:0px;}
+    .card{margin: 30px;}
+    .card_gap{padding-top:1450px;}
+    .percent{font-size: 14px; color: #454545; text-align: center; text-transform: uppercase;}
+    .percent_head{text-align: center; font-weight:700;  font-size: 30px; line-height: 36px;}
+    .caro_box{width: 380px; height: 120px; margin-top: 30px; border: 1px solid #FFFFFF; padding-top:40px; margin:0 auto;}
+    .caro_mob{display: none;}
+    .caro_img{position: absolute; bottom: -30px; left: 50px;}
+    .padd_img{padding:10px 0px 0px 150px ;}
+    .f_t{font-style: normal; font-weight: 400;  font-size: 14px;  line-height: 36px; color: rgba(230, 232, 255, 0.87);}
+    .f_mob{display:block;}
+    .f_h{font-style: normal;  font-weight: 700;  font-size: 16px;  line-height: 22px;  color: rgba(255, 255, 255, 0.87);  }
+
+    .float_right{float: left;}
+    .t_subhead{font-style: normal;  font-weight: 400; padding-left: 15px; padding-right: 15px;  font-size: 15px; line-height: 24px; color: #656565; }
+    .padd_mob{padding:0px 10px 0px 10px}
+    .footer_txt { font-size: 12px !important; text-align: center; }
+
+}
+
+@media only screen and (min-width:768px) and (max-width:900px) {
+	.active_nav {text-align:center; padding: 10px !important; }
+	.nav_color { text-align:center; padding: 10px !important;}
+    .vermi{ display: none;}
+    .txt_cent{text-align: center; }
+    .subhead{font-style: normal; font-weight: 300;  font-size: 34px;  line-height: 40px; color: #FFFFFF; text-transform: uppercase;}
+    .heading{font-style: normal;   font-weight: 700;  font-size: 56px;  line-height: 64px; text-transform: uppercase; color: #FFFFFF;}
+    .p_t{font-style: normal;  font-weight: 400;  font-size: 16px;  line-height: 28px; color: #FFFFFF;}
+    .card{ margin: 0 auto}
+    .card_gap{padding-top:1480px;}
+    .percent{font-size: 14px; color: #454545; text-align: center; text-transform: uppercase;}
+    .percent_head{text-align: center; font-weight:700;  font-size: 30px; line-height: 36px;}
+    .caro_box{width: 380px; height: 120px; margin-top: 30px; border: 1px solid #FFFFFF; padding-top:40px; margin:0 auto;}
+    .caro_mob{display: none;}
+    .caro_img{position: absolute; bottom: -30px; left: 150px;}
+    .padd_img{padding:10px 0px 0px 260px ;}
+    .f_mob{display: block;}
+    .float_right{float: left;}
+    .t_subhead{font-style: normal;  font-weight: 400; padding-left: 15px; padding-right: 15px;  font-size: 15px; line-height: 24px; color: #656565; }
+    .padd_mob{margin-bottom: 20px;}
+    .beni_head{font-style: normal; font-weight: 700; font-size: 20px;  line-height: 26px;  text-transform: capitalize; float:left;  color: #454545;  }
+    .beni_txt{font-style: normal; font-weight: 400; font-size: 18px;  line-height: 26px;  text-transform: capitalize; float:left; color: #454545;}
+    .padd_mob{padding:0px 0px 0px 15px}
+}
